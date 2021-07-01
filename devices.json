@@ -1225,11 +1225,9 @@
       ],
       "repositories": [
          "device_oneplus_guacamoleb",
-         "device_oneplus_sm8150-common",
-         "kernel_oneplus_sm8150",
-         "kernel_oneplus_sm8150-headers",
+         "kernel_oneplus_guacamoleb",
+         "kernel_oneplus_guacamoleb-headers",
          "vendor_oneplus_guacamoleb",
-         "vendor_oneplus_sm8150-common",
          "vendor_oneplus-firmware"
       ]
    },
@@ -2382,6 +2380,30 @@
       ]
    },
    {
+      "name": "Moto One Zoom",
+      "brand": "Motorola",
+      "codename": "parker",
+      "supported_versions": [
+         {
+            "version_code": "eleven",
+            "xda_thread": "",
+            "stable": true
+         },
+         {
+            "version_code": "eleven_plus",
+            "xda_thread": "",
+            "stable": true
+         }
+      ],
+      "repositories": [
+         "device_motorola_parker",
+         "device_motorola_sm6150-common",
+         "vendor_motorola_parker",
+         "vendor_motorola_sm6150-common",
+         "kernel_motorola_sm6150"
+      ]
+   },
+   {
       "name": "Moto X4",
       "brand": "Motorola",
       "codename": "payton",
@@ -2435,6 +2457,26 @@
          "device_xiaomi_phoenix",
          "kernel_xiaomi_phoenix",
          "vendor_xiaomi_phoenix"
+      ]
+   },
+   {
+      "name": "Redmi 7A",
+      "brand": "Xiaomi",
+      "codename": "pine",
+      "supported_versions": [
+         {
+            "version_code": "eleven",
+            "stable": true
+         },
+         {
+            "version_code": "eleven_plus",
+            "stable": true
+         }
+      ],
+      "repositories": [
+         "device_xiaomi_pine",
+         "kernel_xiaomi_pine",
+         "vendor_xiaomi_pine"
       ]
    },
    {
@@ -2525,6 +2567,26 @@
       ]
    },
    {
+      "name": "5 Series",
+      "brand": "Realme",
+      "codename": "r5x",
+      "supported_versions": [
+         {
+            "version_code": "eleven",
+            "stable": true
+         },
+         {
+            "version_code": "eleven_plus",
+            "stable": true
+         }
+      ],
+      "repositories": [
+         "device_realme_r5x",
+         "kernel_realme_r5x",
+         "vendor_realme_r5x"
+      ]
+   },
+   {
       "name": "Redmi K20 Pro/Mi 9T Pro",
       "brand": "Xiaomi",
       "codename": "raphael",
@@ -2612,6 +2674,7 @@
          "device_motorola_river",
          "device_motorola_sdm632-common",
          "kernel_motorola_sdm632",
+         "packages_apps_MotCamera2",
          "vendor_motorola_river",
          "vendor_motorola_sdm632-common"
       ]
@@ -2967,7 +3030,8 @@
          {
             "version_code": "eleven",
             "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-official-pixelexperience-for-teracube-one-v7101o.4197855/",
-            "stable": true
+            "stable": true,
+            "deprecated": true
          }
       ],
       "repositories": [

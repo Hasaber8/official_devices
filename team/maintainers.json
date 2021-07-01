@@ -316,6 +316,23 @@
       "ci_username": "chandrachaganti"
    },
    {
+      "name": "Daniel Jacob",
+      "country": "IN",
+      "github_username": "djchittoor",
+      "xda_url": "https://forum.xda-developers.com/m/djchittoor.10664579",
+      "telegram_url": "http://t.me/djchittoor",
+      "devices": [
+         {
+            "codename": "avicii",
+            "versions": [
+               "eleven",
+               "eleven_plus"
+            ]
+         }
+      ],
+      "ci_username": "djchittoor"
+   },
+   {
       "name": "Elias",
       "country": "FR",
       "github_username": "themalachite",
@@ -323,13 +340,14 @@
       "telegram_url": "https://t.me/TheMalachite",
       "devices": [
          {
-            "codename": "v7101o",
+            "codename": "begonia",
             "versions": [
-               "eleven"
+               "eleven",
+               "eleven_plus"
             ]
          },
          {
-            "codename": "begonia",
+            "codename": "pine",
             "versions": [
                "eleven",
                "eleven_plus"
@@ -630,6 +648,13 @@
       "devices": [
          {
             "codename": "RMX1971",
+            "versions": [
+               "eleven",
+               "eleven_plus"
+            ]
+         },
+         {
+            "codename": "r5x",
             "versions": [
                "eleven",
                "eleven_plus"
@@ -1124,22 +1149,5 @@
          }
       ],
       "ci_username": "solidv"
-   },
-   {
-      "name": "trpsl",
-      "country": "RS",
-      "github_username": "trpsl",
-      "xda_url": "https://forum.xda-developers.com/member.php?u=8399533",
-      "telegram_url": "http://t.me/trpsl",
-      "devices": [
-         {
-            "codename": "davinci",
-            "versions": [
-               "eleven",
-               "eleven_plus"
-            ]
-         }
-      ],
-      "ci_username": "trpsl"
    }
 ]
